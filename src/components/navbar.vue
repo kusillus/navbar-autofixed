@@ -37,9 +37,7 @@ export default {
 			/*
 				TODO: Metodo para mostrar el menu cuando se hace scroll.
 			*/
-			let	vm 			= this,
-				iHeight 	= window.innerHeight
-			
+			let	vm = this
 			vm.enable_fixed_nav = window.scrollY > vm.menu_height
 		}
 	}
